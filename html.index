@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neu Buddhi - Communication Development Materials</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        header img {
+            max-width: 200px;
+            height: auto;
+        }
+        h1, h2 {
+            color: #5cb85c; /* A nice green */
+            text-align: center;
+        }
+        .about-us, .our-materials, .contact-us {
+            margin-bottom: 30px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .material-samples {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .material-samples img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #eee;
+            border-radius: 5px;
+        }
+        .owner-info {
+            margin-top: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .contact-info {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact-info p {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="images/logo.png" alt="Neu Buddhi Logo">
+            <h1>Neu Buddhi</h1>
+            <p>Communication Development Materials for Kids</p>
+        </header>
+
+        <section class="about-us">
+            <h2>About Us</h2>
+            <p>Welcome to Neu Buddhi! We provide fun and engaging communication development materials for children. Our resources are designed to support learning in areas such as emotions, language concepts, and more, making education enjoyable for young learners.</p>
+            <div class="owner-info">
+                <h3>About the Founder</h3>
+                <p>Neu Buddhi is owned by Ambika Bose, a dedicated Audiologist and Speech-Language Pathologist. She holds a BASLP & MASLP from AYJNISHD (D), West Bengal University of Health Sciences.</p>
+                <p>With her expertise, Ambika is passionate about creating high-quality educational materials that cater to the communication development needs of children.</p>
+            </div>
+        </section>
+
+        <section class="our-materials">
+            <h2>Our Materials</h2>
+            <p>Explore a glimpse of the educational cards we offer:</p>
+            <div class="material-samples">
+                <div>
+                    <h3>Tenses</h3>
+                    <img src="images/tenses.png" alt="Tenses Cards">
+                </div>
+                <div>
+                    <h3>Prepositions</h3>
+                    <img src="images/prepositions.png" alt="Prepositions Cards">
+                </div>
+                <div>
+                    <h3>Cause and Effect</h3>
+                    <img src="images/cause-effect.png" alt="Cause and Effect Cards">
+                </div>
+                </div>
+            <p>We offer a variety of cards covering different educational themes to support your child's learning journey.</p>
+        </section>
+
+        <section class="contact-us">
+            <h2>Contact & Purchase</h2>
+            <p>For queries or to purchase our educational cards, please contact us:</p>
+            <div class="contact-info">
+                <p>Phone: <a href="tel:7595808328">7595808328</a></p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
